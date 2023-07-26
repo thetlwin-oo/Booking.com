@@ -1,0 +1,131 @@
+.header {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.headerContainer.listMood{
+    margin: 20px 0px 0px 0px;
+}
+
+.headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.headerListItem.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.headerDes {
+    margin: 20px 0;
+}
+
+.headrBtn {
+    background-color: rgb(68, 68, 165);
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.headerSer {
+    display: flex;
+    background-color: white;
+    height: 30px;
+    border: 3px solid sandybrown;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerItem {
+    color: rgb(76, 61, 61);
+}
+
+.headerSerItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+}
+
+.headerSerText {
+    color: lightgray;
+    cursor: pointer;
+}
+
+.date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+    border-top: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.optionItem {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 10px;
+}
+
+.optionContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.optionBtn {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(63, 63, 236);
+    color: rgb(63, 63, 236);
+    cursor: pointer;
+}
+
+.optionBtn:disabled {
+    cursor: not-allowed;
+}

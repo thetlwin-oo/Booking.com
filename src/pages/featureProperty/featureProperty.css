@@ -1,0 +1,55 @@
+.featureProperty {
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featurePropertyItme{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.featurePropertyImg {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.featurePropertyTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hotelName {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.city {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+
+.price {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.rating {
+    display: flex;
+    gap: 10px;
+}
+
+.rating>button {
+    background-color: rgb(41, 43, 181);
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    border: none;
+}

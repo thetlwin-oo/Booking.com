@@ -1,0 +1,106 @@
+.hotleContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hotelWarrper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    padding: 20px;
+    position: relative;
+    flex-direction: column;
+}
+
+.hoteldetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotleAdress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hotelImgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.photoImageWarpper {
+    width: 33%;
+}
+
+.hotelImage {
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.summar {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+
+.summarDetail {
+    flex: 3;
+}
+
+.highlights  {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: rgb(121, 163, 200);
+    border-radius: 5px;
+}
+
+.slider{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(26, 24, 24, 0.343);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+
+.sliderWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliderImag {
+    width: 55%;
+    height: 80vh;
+    user-select: none;
+}
+
+.close {
+    position: absolute;
+    right:30px;
+    top: 30px;
+    font-size: 30px;
+    color: rgba(95, 94, 94, 0.902) ;
+    cursor: pointer;
+}
+
+.arrow {
+    margin: 20px;
+    font-size: 50px;
+    color: rgba(52, 51, 51, 0.841);
+    cursor: pointer;
+}
+

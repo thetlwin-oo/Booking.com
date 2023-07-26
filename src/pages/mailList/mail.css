@@ -1,0 +1,45 @@
+.mail {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: blue;
+}
+
+.mailContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.mailContainer h1 {
+    color: white;
+    margin:0 ;
+}
+
+.mailContainer span {
+    color: white;
+    font-weight: bold;
+}
+
+.inputMail {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+}
+
+.inputMail input {
+    height: 35px;
+    width: 70%;
+    outline: none;
+}
+
+.inputMail button {
+    background-color: rgb(60, 60, 165);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
